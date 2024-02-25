@@ -1,0 +1,21 @@
+/** @format */
+/**esto le aplica la configuracion a todas las etiquetad p debajo de la h2, se llama Adjacent sibling*/
+/* h2 + p {
+  color: red;
+} */
+
+/**Esto le aplica la configuracion a todos las etiquetas p que tengan por hermano general una etiqueta h2, en este caso estan todos dentro de un div, se llama sibling general*/
+/* h2 ~ p {
+  color: red;
+} */
+
+/** en este caso a los hijos directos de div, o sea, etiqueta p, se le aplica la configuracion*/
+/* div > p {
+  color: red;
+} */
+
+/** en este caso se le aplica la configuracion a todas las etiquetas p decendientes de un div, esten o no dentro de otra etiqueta*/
+
+div p {
+  color: red;
+}

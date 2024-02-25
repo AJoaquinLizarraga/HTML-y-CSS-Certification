@@ -1,0 +1,20 @@
+/** @format */
+/* ELEMENTO */
+p {
+  font-size: 50px;
+  color: rgb(5, 200, 21);
+}
+
+/* class */
+
+.texto {
+  font-size: 50px;
+  color: rgb(200, 5, 141);
+}
+
+/* ID */
+
+#otroTexto {
+  font-size: 50px;
+  color: rgb(5, 15, 200);
+}

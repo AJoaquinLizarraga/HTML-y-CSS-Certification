@@ -1,0 +1,9 @@
+/** @format */
+main {
+  background-color: red;
+  width: 100%;
+  height: 500px;
+}
+p {
+  font-size: 26px;
+}
